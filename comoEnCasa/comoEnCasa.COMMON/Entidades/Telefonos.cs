@@ -6,8 +6,8 @@ namespace comoEnCasa.COMMON.Entidades
 {
     public class Telefonos : BaseDTO
     {
-        public int IdTelefonos { get; set; }
-        public short CuitProveedor { get; set; }
+        public int IdTelefono { get; set; }
+        public int CuitProveedor { get; set; }
         public int NumeroTelefono { get; set; }
     }
 }

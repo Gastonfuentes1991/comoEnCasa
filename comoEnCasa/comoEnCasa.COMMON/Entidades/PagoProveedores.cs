@@ -8,7 +8,8 @@ namespace comoEnCasa.COMMON.Entidades
     {
         public int IdPagosProv { get; set; }
         public int NroBoleta { get; set; }
-        public decimal Deuda { get; set; }
-        public decimal Pagado { get; set; }
+        public decimal Total{ get; set; }
+        public decimal Entrega { get; set; }
+        public bool Pagado { get; set; }
     }
 }

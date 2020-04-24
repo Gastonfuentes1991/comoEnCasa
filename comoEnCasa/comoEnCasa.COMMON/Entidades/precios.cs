@@ -6,10 +6,10 @@ namespace comoEnCasa.COMMON.Entidades
 {
     public class Precios : BaseDTO
     {
-        public int idPrecios { get; set; }
-        public int codBarra { get; set; }
-        public decimal valor { get; set; }
-        public decimal costo { get; set; }
+        public int IdPrecios { get; set; }
+        public int CodBarra { get; set; }
+        public decimal Valor { get; set; }
+        public decimal Costo { get; set; }
 
 
     }

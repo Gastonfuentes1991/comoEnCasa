@@ -6,8 +6,8 @@ namespace comoEnCasa.COMMON.Entidades
 {
     public class Productos: BaseDTO
     {
-        public int codBarra { get; set; }
-        public string nombre { get; set; }
-        public string descripcion { get; set; }
+        public int CodBarra { get; set; }
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
     }
 }

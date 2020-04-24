@@ -6,9 +6,9 @@ namespace comoEnCasa.COMMON.Entidades
 {
     public class Ventas : BaseDTO
     {
-        public int idVenta { get; set; }
-        public DateTime fechaVenta { get; set; }
-        public decimal valorTotalVenta { get; set; }
-
+        public int IdVenta { get; set; }
+        public DateTime FechaVenta { get; set; }
+        public decimal ValorTotalVenta { get; set; }
+        public short DescuentoVenta { get; set; }
     }
 }
