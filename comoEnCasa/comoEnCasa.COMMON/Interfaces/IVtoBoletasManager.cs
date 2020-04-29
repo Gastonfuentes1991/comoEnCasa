@@ -16,6 +16,6 @@ namespace comoEnCasa.COMMON.Interfaces
         /// <returns>Boletas vencimiento proximo</returns>
         IEnumerable<VtoBoletas> AlarmaVtoEnDiezDias();
 
-        //IEnumerable<VtoBoletas> ();
+       
     }
 }
