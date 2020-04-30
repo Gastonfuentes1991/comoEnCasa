@@ -10,8 +10,7 @@ namespace comoEnCasa.COMMON.Validadores
     {
         public AlarmasCantidadesValidator()
         {
-            
-            RuleFor(a => a.CantMinima).NotEmpty().NotNull().GreaterThan(0);
+            RuleFor(a => a.CantMinima).NotEmpty().NotNull().GreaterThan((short)0);
         }
     }
 }

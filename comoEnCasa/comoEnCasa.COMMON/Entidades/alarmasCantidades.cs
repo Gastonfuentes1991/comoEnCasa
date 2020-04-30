@@ -8,7 +8,7 @@ namespace comoEnCasa.COMMON.Entidades
     {
         public int IdAlarma { get; set; }
         public int IdStockProducto { get; set; }
-        public int CantMinima { get; set; }
+        public short CantMinima { get; set; }
 
     }
 }
