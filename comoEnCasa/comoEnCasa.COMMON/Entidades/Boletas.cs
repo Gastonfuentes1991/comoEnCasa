@@ -8,7 +8,7 @@ namespace comoEnCasa.COMMON.Entidades
     {
         public int NroBoleta { get; set; }
         public int CodBarra { get; set; }
-        public short CuitProveedor { get; set; }
+        public string CuitProveedor { get; set; }
         public short CantidadProd { get; set; }
         public double CostoUnitario { get; set; }
     }

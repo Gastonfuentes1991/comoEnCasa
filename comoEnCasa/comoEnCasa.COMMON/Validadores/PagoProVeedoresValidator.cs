@@ -6,7 +6,7 @@ using System.Text;
 
 namespace comoEnCasa.COMMON.Validadores
 {
-    class PagoProveedoresValidator:AbstractValidator<PagoProveedores>
+    public class PagoProveedoresValidator:AbstractValidator<PagoProveedores>
     {
         public PagoProveedoresValidator()
         {
