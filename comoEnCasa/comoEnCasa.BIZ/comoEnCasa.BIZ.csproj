@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\comoEnCasa.COMMON\comoEnCasa.COMMON.csproj" />
+    <ProjectReference Include="..\comoEnCasa.DAL.SQLSERVER\comoEnCasa.DAL.SQLSERVER.csproj" />
+  </ItemGroup>
+
+</Project>

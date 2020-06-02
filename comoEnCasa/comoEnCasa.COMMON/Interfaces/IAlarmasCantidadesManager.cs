@@ -8,8 +8,9 @@ namespace comoEnCasa.COMMON.Interfaces
     /// <summary>
     /// Proporciona metodos relacionado a alarmas de productos
     /// </summary>
-    public interface IAlarmasProductosManager: IGenericManager<AlarmasCantidades>
+    public interface IAlarmasCantidadesManager: IGenericManager<AlarmasCantidades>
     {
+        AlarmasCantidades CantidadProducto(string IdStockProducto, int stock);
         
     }
 }

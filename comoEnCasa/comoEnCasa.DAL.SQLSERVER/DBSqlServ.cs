@@ -17,10 +17,10 @@ namespace comoEnCasa.DAL.SQLSERVER
 
         public DBSqlServ()
         {
-            string server = "";
-            string database = "";
-            string uid = "";
-            string password = "";
+            string server = @"DESKTOP-A5842AT";
+            string database = "comoEnCasa";
+            string uid = "comoencasauser";
+            string password = "oliviapanchi";
             conexion = new SqlConnection(string.Format("SERVER={0};DATABASE={1}; UID={2};PASSWORD={3};SslMode= none;", server, database, uid, password));
             Conectar();
         }

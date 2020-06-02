@@ -35,7 +35,7 @@ namespace comoEnCasa.COMMON.Interfaces
         /// </summary>
         /// <param name="entidad">Id de la entidad a eliminar</param>
         /// <returns>Confirmacion de eliminacion</returns>
-        bool Eliminar(T entidad);
+        bool Eliminar(string Id);
         /// <summary>
         /// Obtiene un elemento de acuerdo a su Id
         /// </summary>
